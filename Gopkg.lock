@@ -45,6 +45,18 @@
   version = "v1.2.0"
 
 [[projects]]
+  branch = "master"
+  digest = "1:7439e1e9a33b9d7d3eb7048fe50851a47186fd82d0fc6c481f749fb2c9901f61"
+  name = "github.com/skip2/go-qrcode"
+  packages = [
+    ".",
+    "bitset",
+    "reedsolomon",
+  ]
+  pruneopts = "UT"
+  revision = "dc11ecdae0a9889dc81a343585516404e8dc6ead"
+
+[[projects]]
   digest = "1:dc48dff981a895912c33cf272b1d869c216d058bd4025736cb481d3ceeed6872"
   name = "github.com/tkanos/gonfig"
   packages = ["."]
@@ -68,6 +80,7 @@
     "github.com/GeertJohan/go.rice/embedded",
     "github.com/boltdb/bolt",
     "github.com/satori/go.uuid",
+    "github.com/skip2/go-qrcode",
     "github.com/tkanos/gonfig",
   ]
   solver-name = "gps-cdcl"
